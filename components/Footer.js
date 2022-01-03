@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <div className="grid grids-cols-1 md:grid-cols-4 pl-20 p-10 gap-y-10 bg-gray-100 text-gray-600">
+        <div className="grid grids-cols-1 md:grid-cols-4 pl-20 py-10 gap-y-10 bg-gray-100 text-gray-600">
             <div className="space-y-3 text-xs text-gray-800">
                 <h3 className="font-bold">About</h3>
                 <p>How Airbnb Works</p>
@@ -33,7 +33,6 @@ function Footer() {
                 <p>Airbnb Plus</p>
                 <p>Its A Pretty Awesome Clone</p>
             </div>
-
         </div>
     )
 }
